@@ -58,6 +58,8 @@ header{
     right: 0;
     border-left: 4px solid #111111;
     border-bottom: 4px solid #111111;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 div.chicken{
     background-color: #B2D732
