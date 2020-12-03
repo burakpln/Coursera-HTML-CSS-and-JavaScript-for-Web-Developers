@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #cccccc;
+  height: 80px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-brand {
+  font-size: 2em;
+  padding: 10px;
+}
+header nav div {
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 5px;
+}
+.navbar-toggler {
+  margin: 10px;
+  background-color: #ffffff;
+}
+.nav-item {
+}
+#hrule1 {
+  width: 50%;
+  margin: auto;
+}
+#hrule2 {
+  width: 60%;
+  margin: auto;
+}
+#hrule3 {
+  width: 70%;
+  margin: auto;
+}
+
+#menu {
+  width: 95%;
+}
+#menu h1 {
+  padding: 1em;
+  color: #e76f51;
+}
+.row > div {
+  height: auto;
+  padding: 1.4em;
+  background-color: #cccccc;
+  border-right: 20px solid #ffffff;
+  border-left: 20px solid #ffffff;
+  border-bottom: 20px solid #ffffff;
+}
+.row > div:nth-last-child() {
+  border-right: unset;
+}
+.row div div {
+  font-size: 1.4em;
+  font-weight: bolder;
+  padding-top: 0;
+  color: #2a9d8f;
+}
+span a {
+  text-decoration: none;
+  color: #2a9d8f;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  body header nav button,
+  body header nav div {
+    visibility: hidden;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
